@@ -9,4 +9,16 @@
     <PackageReference Include="Microsoft.ML" Version="1.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="Data\amazon_cells_labelled.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\imdb_labelled.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\yelp_labelled.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
