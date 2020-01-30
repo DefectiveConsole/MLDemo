@@ -82,11 +82,11 @@ namespace MLTest.con
             {
                 new SentimentData
                 {
-                    SentimentText = "I was captivated the entire time."
+                    SentimentText = "It was the worst movie I've ever seen."
                 },
                 new SentimentData
                 {
-                    SentimentText = "They shouldn't have made a sequel."
+                    SentimentText = "I would watch it again."
                 }
             };
 
